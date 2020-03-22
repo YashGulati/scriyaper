@@ -1,0 +1,42 @@
+{
+  "file-name": "football_stadiums_England",
+  "site": "https://en.wikipedia.org/wiki/List_of_football_stadiums_in_England",
+  "url": {
+    "name": "home",
+    "path": "/"
+  },
+  "id": {
+    "key": "Overall Rank",
+    "selector": ".wikitable td:nth-child(1)"
+  },
+  "map": [
+    {
+      "key": "Stadium",
+      "selector": ".wikitable td:nth-child(2)"
+    },
+    {
+      "key": "Town/City",
+      "selector": ".wikitable td:nth-child(3)"
+    },
+    {
+      "key": "Capacity",
+      "selector": ".wikitable td:nth-child(4)"
+    },
+    {
+      "key": "Club",
+      "selector": ".wikitable td:nth-child(5)"
+    },
+    {
+      "key": "League(Tier)",
+      "selector": ".wikitable td:nth-child(6)"
+    },
+    {
+      "key": "Rank within League",
+      "selector": ".wikitable td:nth-child(7)"
+    },
+    {
+      "key": "Notes",
+      "selector": ".wikitable td:nth-child(8)"
+    }
+  ]
+}
